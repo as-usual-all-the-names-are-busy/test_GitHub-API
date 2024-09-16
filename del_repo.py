@@ -16,3 +16,5 @@ def del_repo(username, name_repo, access_token):
         print("репозиторий не найден")
     else:
         print("ошибка выполнения")
+        
+del_repo(username, name_repo, access_token)
