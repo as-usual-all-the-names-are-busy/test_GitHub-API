@@ -7,3 +7,19 @@
 
 3) получить свой токен можно во вкладке Settings на Github в своем профиле, дальше в Developer Settings и в Personal access tokens (classic)
 4) исползованный мной токен был отключен сразу после теста
+
+дальше
+
+1) файл token_and_name.py подлежит редактированию,
+   в нем нужно подствить свой токен и написать название репозитория
+
+2) файлы checking_for_availability.py , create_repo_and_file_in.py , del_repo.py
+   зависят и работаю только если отредактировать файл token_and_name.py
+
+соответственно:
+  checking_for_availability.py - проверяет на наличие репозитория по названию
+  create_repo_and_file_in.py - занимается созданием репозитория
+  del_repo.py - удаляет его
+
+  по идее должены быть .env и requirements.txt - но я еще не настолько крут - но их суть отражена в полной мере я считаю))
+
